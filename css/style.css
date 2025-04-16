@@ -222,9 +222,9 @@ body {
 
 .aboutCard{
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   justify-content: center;
-  grid-gap: 20px;
+  grid-gap: 5px;
 }
 .Acard{
   box-shadow: 3px 4px 3px 3px gray;
@@ -280,6 +280,13 @@ body {
 
 /* About Media queries */
 @media (max-width:1325px) {
+  .aboutCard{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    grid-gap: 20px;
+  }
+
   .Acard{
     width: 400px;
     height: 400px;
