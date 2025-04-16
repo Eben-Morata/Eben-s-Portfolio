@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Eben's Portfolio</title>
+   
+
+    <!-- Css link -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utilities.css" />
+  </head>
+  
+  <body>
+    <header  id="hero">
+      <!-- Navbar -->
+      <nav class="navbar">
+        <div class="container">
+          <!-- Logo -->
+          <h1 id="logo">
+            <a href="#hero"
+              ><img src="./assets/eben.PNG" alt="EbenLogo"
+            /></a>
+          </h1>
+
+          <!-- Navbar links -->
+          <ul class="nav-menu">
+            <li><a class="nav-link" href="#about">ABOUT</a></li>
+            <li><a class="nav-link" href="#projects">PROJECTS</a></li>
+            <li><a class="nav-link" href="#contact">CONTACT</a></li>
+            
+            <li>
+              <a
+              href="./assets/eeeeeben_resume.pdf"
+                class="nav-link btn btn-primary"
+                title="Download resume" type="button" download="eeeeeben_resume.pdf"
+                >DOWNLOAD RESUME <i class="fas fa-arrow-right"></i
+              ></a>
+            </li>
+
+            <!-- Toggle switch -->
+            <div class="theme-switch">
+              <input type="checkbox" id="switch" />
+              <label class="toggle-icons" for="switch">
+                <img class="moon" src="assets/moon.svg" alt="moon"/>
+                <img class="sun" src="assets/sun.svg"  alt="sun"/>
+              </label>
+            </div>
+            <!-- Hamburger menu -->
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+      </nav>
+
+      <section  class="header-container">
+        <img
+          class="profile-image"
+          src="assets/eben.jpg"
+          alt="ebenPic"
+        />
+        <h1>Hi I'm Ebenezer Williams</h1>
+
+        <div class="content-text">
+          <p>
+            I am a skilled and passionate frontend Developer
+           with creating visually appealing and user-friendly websites
+          </p>
+        </div>
+        <a
+          href="#contact"
+          class="btn btn-secondary"
+          >Connect With Me</a
+        >
+      </section>
+    </header>
+
+    <!-- About me -->
+      <section id="about">
+        <div class="About-division"></div>
+        <div class="aboutContent-text">
+          <h2>What I do</h2>
+          <p>I am a skilled and passionate frontend Developer
+            with creating visually appealing and user-friendly websites
+            I have strong understanding of design and a keen eye for detail.
+            I am proficient in HTML, CSS, JavaScript and as well as third-party library like React Js.</p>
+        </div>
+
+        <article class="aboutCard">
+        <!-- About 1-->
+        <div class="Acard" id="aCard"> 
+          <div class="about-info">
+            <img class="logos" src="./assets/1.JPG" alt="applogo"/>
+            <h1>App Design</h1>
+        </div>    
+             <div class="about-text">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, autem numquam hic nesciunt nostrum iure maiores modi. Veniam eum debitis animi alias a dolore laboriosam nobis, quisquam quod adipisci accusantium?"</p>        
+          </div>                
+        </div>
+        <!-- About 2 -->
+        <div class="Acard"> 
+          <div class="about-info">
+            <img class="logos" src="./assets/2.JPG" alt="websitelogo"/>
+            <h1>Website Design</h1>
+          </div>        
+              <div class="about-text">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, autem numquam hic nesciunt nostrum iure maiores modi. Veniam eum debitis animi alias a dolore laboriosam nobis, quisquam quod adipisci accusantium?"</p>        
+              </div>
+        </div>
+        <!-- About 3 -->
+        <div class="Acard"> 
+          <div class="about-info">
+            <img class="logos" src="./assets/3.PNG" alt="weblogo"/>
+            <h1>Web Development</h1>
+          </div>   
+          <div class="about-text">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, autem numquam hic nesciunt nostrum iure maiores modi. Veniam eum debitis animi alias a dolore laboriosam nobis, quisquam quod adipisci accusantium?"</p>        
+          </div>                 
+        </div>
+        </article>
+      </section>
+
+    <!-- Projects -->
+    <section id="projects" class="project-container container">
+      <div class="division"></div>
+      <div class="content-text">
+        <h2>Projects</h2>
+        <p>I take pride in paying attention to the smallest
+          details and making sure that my work is pixel perfect.
+          I am excited to bring my skills and experience to help 
+          businesses achieve their goals and create a strong online presence</p>
+      </div>
+
+      <article class="project">
+        <!-- Project 1 -->
+        <div href="" class="card">
+          <div class="project-info">
+            <div class="project-bio">
+              <h3>Project One</h3>
+              <p>HTML, CSS</p>
+            </div>
+
+            <div class="project-link">
+              <a href="https://eben-morata.github.io/Facebook-form--Html-css/" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div href="" class="card">
+          <div class="project-info">
+            <div class="project-bio">
+              <h3>Project Two</h3>
+              <p>HTML, CSS, REACTJS</p>
+            </div>
+
+            <div class="project-link">
+              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Porject 3 -->
+        <div href="" class="card">
+          <div class="project-info">
+            <div class="project-bio">
+              <h3>Project Three</h3>
+              <p>HTML, CSS, JAVASCRIPT</p>
+            </div>
+
+            <div class="project-link">
+              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div href="" class="card">
+          <div class="project-info">
+            <div class="project-bio">
+              <h3>Project Four</h3>
+              <p>HTML, CSS, JAVASCRIPT</p>
+            </div>
+
+            <div class="project-link">
+              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div href="" class="card">
+          <div class="project-info">
+            <div class="project-bio">
+              <h3>Project Five</h3>
+              <p>HTML, CSS, REACT JS</p>
+            </div>
+
+            <div class="project-link">
+              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 6 -->
+        <div href="" class="card">
+          <div class="project-info">
+            <div class="project-bio">
+              <h3>Project Six</h3>
+              <p>HTML, CSS, JAVASCRIPT</p>
+            </div>
+
+            <div class="project-link">
+              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <a href="#projects " class="btn btn-secondary"
+        target="_blank" >See More <i class="fas fa-arrow-right"></i
+      ></a>
+    </section>
+
+    <!-- Contact -->
+
+    <section id="contact" class="contact-container">
+      <div class= "division"></div>
+      <div class="content-text">
+         <h2>Contact</h2>
+         <p>
+          As a frontend Developer, I construct web interfaces and design
+          systems with a special love for accessibility and the
+          performance. I tend to code things from scratch and enjoy
+          bringing ideas to life.
+      </p>
+      </div>
+
+          <div class="contact-content">
+            <div class="cont-text">
+              <strong href="#" class="hire-alert">
+                <span class="indicator"></span>
+                    <p>Available for hire</p>
+              </strong>
+            </div>
+
+            <!-- form -->
+         <section class="contact">
+            <div class="container">
+          <form action="#" class="contact-form">
+            <div class="form-field">
+              <input type="text" placeholder ="Please Enter Name"
+               name="name" id="name" required />
+            </div>
+            <div class="form-field">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                required
+                inputmode="email"
+                placeholder ="Please Enter email@gmail.com"
+              />
+            </div>
+            <div class="form-field">
+              <textarea name="message" 
+              id="message" placeholder="Please How can I help you?"
+              required></textarea>
+            </div>
+            <button type="submit" class="btn btn-secondary">Send</button>
+          </form>
+        </div>
+    </section> 
+          </div>
+    </section>
+    
+
+    <footer id="footer">
+      <div class="container">
+        <a href="ebenmorata77@gmail.com">ebenmorata77@gmail.com</a>
+        <!-- Social links -->
+        <div class="social">
+          <a href="facebook.com/Eben Morata" target="_blank"
+            ><img src="./assets/facebook-icon.svg" alt="Facebook"
+          /></a>
+          
+          <a href="linkedIn.com/eben-morata" target="_blank"
+            ><img src="./assets/linkedin-icon.svg" alt="Linkedin"
+          /></a>
+          <a href="github.com/Eben-Morata" target="_blank"><img src="./assets/github-icon.svg" alt="GitHub" /></a>
+        </div>
+    
+        <p>Copyright &copy;<span id="datee"></span> Ebenezer Williams, All rights reserved</p>
+      </div>
+    </footer>
+
+
+
+
+   
+    <script src="js/script.js"></script>
+  </body>
+</html>
