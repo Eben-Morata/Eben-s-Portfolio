@@ -378,6 +378,10 @@ body {
   grid-gap: 0.9rem;
 }
 
+.project-link a{
+  color: #fff;
+}
+
 .card{
   transition: 2s all ease-out;
 }
